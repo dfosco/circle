@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Circle</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://unpkg.com/tachyons@4.10.0/css/tachyons.css" rel="stylesheet">
+    <script src="https://unpkg.com/dom-to-image@2.6.0/src/dom-to-image.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <main id="app" class="vw-100 vh-100 flex flex-column items-center justify-center bg-near-white">
+      <input v-model="message">
+      <div class="br-100 h5 w5 bg-bi overflow-hidden flex items-center justify-center">
+        <img class="w-90 h-90 br-100 b--white ba bw2" v-bind:src="message">
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
