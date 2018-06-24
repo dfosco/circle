@@ -4,7 +4,8 @@ var app = new Vue({
   data() {
     return {
       url: 'https://i.imgur.com/Z1LPMoZ.png',
-      picked: 'rainbow'
+      picked: 'rainbow',
+      downloadButtonState: 0
     }
   },
 
@@ -31,6 +32,7 @@ var app = new Vue({
       if (image) {
         console.log('Picture loaded.')
         this.image = image
+        this.downloadButtonState = 'enabled'
       } else {
         console.log('FileReader API not supported: use the <form>, Luke!')
       }
