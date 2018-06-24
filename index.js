@@ -3,7 +3,6 @@ var app = new Vue({
 
   data() {
     return {
-      url: 'https://i.imgur.com/Z1LPMoZ.png',
       picked: 'rainbow',
       downloadButtonState: 0
     }
@@ -19,7 +18,7 @@ var app = new Vue({
       domtoimage.toPng(node)
         .then(function (dataUrl) {
           var link = document.createElement('a');
-          link.download = 'my-node.png';
+          link.download = 'pride-halo.png';
           link.href = dataUrl;
           link.click();
         })
