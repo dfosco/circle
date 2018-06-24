@@ -3,7 +3,6 @@ var app = new Vue({
 
   data() {
     return {
-      gradient: 'bg-bi',
       url: 'https://i.imgur.com/Z1LPMoZ.png',
       picked: 'rainbow'
     }

@@ -41,6 +41,30 @@
               Bi Flag
             </label>
           </div>
+          <div class="dib pv2">
+            <input v-model="picked" name="halo" value="trans" id="trans" type="radio" />
+            <label for="trans" class="f6 fw5 ml1">
+              Trans Flag
+            </label>
+          </div>
+          <div class="dib pv2">
+            <input v-model="picked" name="halo" value="nonbinary" id="nonbinary" type="radio" />
+            <label for="nonbinary" class="f6 fw5 ml1">
+              Nonbinary
+            </label>
+          </div>
+          <div class="dib pv2">
+            <input v-model="picked" name="halo" value="genderqueer" id="genderqueer" type="radio" />
+            <label for="genderqueer" class="f6 fw5 ml1">
+              Genderqueer
+            </label>
+          </div>
+          <div class="dib pv2">
+            <input v-model="picked" name="halo" value="genderfluid" id="genderfluid" type="radio" />
+            <label for="genderfluid" class="f6 fw5 ml1">
+              Genderfluid
+            </label>
+          </div>
         </form>
         <button @click="printPng">Save</button>
       </main>

@@ -32,11 +32,44 @@
 /* === === === === === */
 
 .bi {
-  background: linear-gradient(0deg, rgba(255,0,106,1) 0%, rgba(142,56,143,1) 50%, rgba(0,16,255,1) 100%);
+  background: rgb(255,0,106);
+  background: -moz-linear-gradient(180deg, rgba(255,0,106,1) 0%, rgba(142,56,143,1) 50%, rgba(0,16,255,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255,0,106,1) 0%, rgba(142,56,143,1) 50%, rgba(0,16,255,1) 100%);
+  background: linear-gradient(180deg, rgba(255,0,106,1) 0%, rgba(142,56,143,1) 50%, rgba(0,16,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff006a",endColorstr="#0010ff",GradientType=1);
 }
 
 .rainbow {
-      background: rgb(252,0,0);
-background: linear-gradient(90deg, rgba(252,0,0,1) 0%, rgba(252,94,13,1) 12%, rgba(242,238,41,1) 25%, rgba(85,158,43,1) 44%, rgba(63,73,214,1) 63%, rgba(121,40,175,1) 84%, rgba(191,33,250,1) 100%);
+  background: rgb(252,0,0);
+  background: linear-gradient(180deg, rgba(252,0,0,1) 0%, rgba(252,94,13,1) 12%, rgba(242,238,41,1) 25%, rgba(85,158,43,1) 44%, rgba(63,73,214,1) 63%, rgba(121,40,175,1) 84%, rgba(191,33,250,1) 100%);
 
+}
+
+.trans {
+  background: rgb(69,207,251);
+  background: linear-gradient(0deg, rgba(69,207,251,1) 0%, rgba(254,159,184,1) 25%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(254,159,184,1) 75%, rgba(69,207,251,1) 100%);
+}
+
+.genderqueer {
+  background: rgb(183,123,218);
+  background: -moz-linear-gradient(0deg, rgba(183,123,218,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(71,129,43,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(183,123,218,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(71,129,43,1) 100%);
+  background: linear-gradient(0deg, rgba(183,123,218,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 55%, rgba(71,129,43,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b77bda",endColorstr="#47812b",GradientType=1);
+}
+
+.nonbinary {
+  background: rgb(253,249,139);
+  background: -webkit-linear-gradient(rgba(253,249,139,1) 0%, rgba(255,255,247,1) 26%, rgba(255,255,255,1) 36%, rgba(252,244,254,1) 46%, rgba(230,210,237,1) 55%, rgba(159,84,207,1) 69%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(rgba(253,249,139,1) 0%, rgba(255,255,247,1) 26%, rgba(255,255,255,1) 36%, rgba(252,244,254,1) 46%, rgba(230,210,237,1) 55%, rgba(159,84,207,1) 69%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(rgba(253,249,139,1) 0%, rgba(255,255,247,1) 26%, rgba(255,255,255,1) 36%, rgba(252,244,254,1) 46%, rgba(230,210,237,1) 55%, rgba(159,84,207,1) 69%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdf98b",endColorstr="#000000",GradientType=1);
+}
+
+.genderfluid {
+  background: rgb(254,113,161);
+  background: -moz-linear-gradient(180deg, rgba(254,113,161,1) 0%, rgba(254,149,185,1) 13%, rgba(255,255,255,1) 25%, rgba(246,202,250,1) 38%, rgba(224,79,238,1) 52%, rgba(130,11,142,1) 72%, rgba(57,57,187,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(254,113,161,1) 0%, rgba(254,149,185,1) 13%, rgba(255,255,255,1) 25%, rgba(246,202,250,1) 38%, rgba(224,79,238,1) 52%, rgba(130,11,142,1) 72%, rgba(57,57,187,1) 100%);
+  background: linear-gradient(180deg, rgba(254,113,161,1) 0%, rgba(254,149,185,1) 13%, rgba(255,255,255,1) 25%, rgba(246,202,250,1) 38%, rgba(224,79,238,1) 52%, rgba(130,11,142,1) 72%, rgba(57,57,187,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe71a1",endColorstr="#3939bb",GradientType=1);
 }
